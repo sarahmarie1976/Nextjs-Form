@@ -15,12 +15,29 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+input {
+  padding: 6px;
+  font-size: 24px;
+}
+
+button {
+  padding: 6px;
+  font-size: 24px;
+}
+
+@media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
   body {
-    color: white;
-    background: black;
+    color: gray;
+    background: white;
   }
 }
